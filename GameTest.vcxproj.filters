@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameTest.cpp" />
+    <ClCompile Include="App\app.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\main.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleSprite.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleSound.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleController.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\TextureLoader.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="colorScheme.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="ControlMenu.cpp" />
+    <ClCompile Include="CustomizeMenu.cpp" />
+    <ClCompile Include="PauseMenu.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="tower.cpp" />
+    <ClCompile Include="Boid.cpp" />
+    <ClCompile Include="wall.cpp" />
+    <ClCompile Include="spikeBallTower.cpp" />
+    <ClCompile Include="maceTower.cpp" />
+    <ClCompile Include="slowTower.cpp" />
+    <ClCompile Include="flameThrower.cpp" />
+    <ClCompile Include="Segment.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App\app.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\AppSettings.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\main.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleSprite.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleSound.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleController.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\TextureLoader.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="colorScheme.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="ControlMenu.h" />
+    <ClInclude Include="CustomizeMenu.h" />
+    <ClInclude Include="PauseMenu.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="tower.h" />
+    <ClInclude Include="Boid.h" />
+    <ClInclude Include="wall.h" />
+    <ClInclude Include="spikeBallTower.h" />
+    <ClInclude Include="maceTower.h" />
+    <ClInclude Include="slowTower.h" />
+    <ClInclude Include="flameThrower.h" />
+    <ClInclude Include="Segment.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{3e1485bf-3449-4966-8760-976ee866544b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
